@@ -3,7 +3,7 @@ const producto_db = leerJSON();
 require('colors')
 
 const filtrar =  function (productos = producto_db) {
-    console.log("\n***************LISTA DE PRODUCTOS *****************\n".yellow);
+    console.log("\n***************PROFUCTOS FILTRADOS *****************\n".yellow);
     productos.forEach(({id, nombre, marca, precio, stock},i) => {
         console.log(
         `${id} - ${nombre} ${marca} $${precio} | ${stock ? 'OK' : 'SIN STOCK'}`
