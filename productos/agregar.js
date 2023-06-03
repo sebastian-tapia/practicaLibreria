@@ -1,4 +1,4 @@
-const Producto = require('./Producto')
+const Producto = require('./Product')
 const { leerJSON, escribirJSON } = require("../data");
 const productos_db = leerJSON()
 const agregar = function(nombre,marca,precio,descuento){
