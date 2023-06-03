@@ -1,16 +1,9 @@
-const {leerJSON,escribirJSON} = require('../data');
-const producto_db = leerJSON();
-require('colors')
+const { leerJSON, escribirJSON } = require("../data");
+const productos_db = leerJSON()
 
-const filtrar =  function (productos = producto_db) {
-    console.log("\n***************PROFUCTOS FILTRADOS *****************\n".yellow);
-    productos.forEach(({id, nombre, marca, precio, stock},i) => {
-        console.log(
-        `${id} - ${nombre} ${marca} $${precio} | ${stock ? 'OK' : 'SIN STOCK'}`
-        );
-    });
-    console.log("\n***************************************************\n".yellow);
+const filtrar = function(categoria){
+    const productosFiltrados = productos_db.filter(producto => producto.categoria == categoria)
+    return productosFiltrados
+}
 
-    return null
-  }
-module.exports = filtrar;
+module.exports = filtrar
