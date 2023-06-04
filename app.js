@@ -51,6 +51,7 @@ switch (comando) {
     //moduloProductos.listar(respuesta);
     console.log(respuesta.green);
     break;
+    
 
   default:
     break;

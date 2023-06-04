@@ -14,7 +14,7 @@
       "marca": "dos banderas",
       "precio": 100,
       "descuento": 10,
-      "stock": true,
+      "stock": false,
       "categoria": "artistica"
    },
    {
@@ -32,7 +32,7 @@
       "marca": "pizzini",
       "precio": 1300,
       "descuento": 20,
-      "stock": true,
+      "stock": false,
       "categoria": "escolar"
    },
    {
