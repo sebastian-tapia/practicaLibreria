@@ -57,8 +57,8 @@ switch (comando) {
       respuesta = moduloProductos.buscar(filtroBuscar);
       console.log(respuesta);
       break;
-    
 
+      
   default:
     break;
 }
