@@ -122,6 +122,14 @@
       "marca": "norma",
       "precio": 5000,
       "descuento": 0,
-      "stock": true
+      "stock": false
+   },
+   {
+      "id": 15,
+      "nombre": "Laapiz",
+      "marca": "bicc",
+      "precio": 100,
+      "descuento": 0,
+      "stock": false
    }
 ]
