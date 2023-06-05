@@ -51,6 +51,12 @@ switch (comando) {
     //moduloProductos.listar(respuesta);
     console.log(respuesta.green);
     break;
+  
+  case 'buscar':
+    let filtroBuscar = argv[3];
+      respuesta = moduloProductos.buscar(filtroBuscar);
+      console.log(respuesta);
+      break;
     
 
   default:
